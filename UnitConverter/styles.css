@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #192841;
+}
+
+#hero {
+    background: linear-gradient(rgb(83, 47, 241), rgb(114, 83, 252));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+}
+
+#hero-txt {
+    margin-top: 25px;
+}
+
+#input-el {
+    background-color: inherit;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 6px white;
+}
+
+#convert-btn {
+    color: rgb(77, 43, 228);
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.card {
+    background-color: #243247;
+    color: rgb(133, 162, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin: 20px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+p {
+    margin: 0;
+}
